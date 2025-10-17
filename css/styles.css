@@ -163,7 +163,7 @@ a {
 .features-list {
   /* display: flex; */
   /* gap: 24px; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
@@ -197,7 +197,7 @@ a {
 .team-list {
   /* display: flex; */
   /* gap: 24px; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
@@ -236,7 +236,7 @@ a {
 
 .portfolio-list {
   /* display: flex; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* gap: 24px; */
   justify-content: center;
 }
