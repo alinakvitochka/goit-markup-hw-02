@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 img {
@@ -18,7 +18,7 @@ img {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 a {
@@ -108,7 +108,7 @@ a {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 120px 0;
+  /* padding: 120px 0; */
   color: #ffffff;
 }
 
@@ -152,11 +152,11 @@ a {
 
 
 .features .section-title {
-  display: none;
+  /* display: none; */
 }
 /* === Features === */
 .features {
-  padding: 120px 0;
+  /* padding: 120px 0; */
   background-color: #ffffff;
 }
 
@@ -185,7 +185,7 @@ a {
   color: #434455;
 }
 .features .section-title {
-  display: none;
+  /* display: none; */
 }
 
 /* === Team === */
@@ -230,7 +230,7 @@ a {
 
 /* === Portfolio === */
 .portfolio {
-  padding: 120px 0;
+  /* padding: 120px 0; */
   background-color: #ffffff;
 }
 
@@ -279,6 +279,6 @@ a {
   font-size: 16px;
   line-height: 24px;
   /* width: 264px; */
-  letter-spacing: 0.02em; /* раніше було 2%, змінив на em для коректності */
-  color: #f4f4fd; /* колір тексту у футері */
+  letter-spacing: 0.02em; 
+  color: #f4f4fd;
 }
