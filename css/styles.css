@@ -176,7 +176,7 @@ a {
 }
 
 .features-item {
-  width: 264px;
+  /* width: 264px; */
 }
 
 .features-subtitle {
@@ -198,7 +198,7 @@ a {
 /* === Team === */
 .team {
   background-color: #F4F4FD;
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 .team-list {
@@ -213,7 +213,7 @@ a {
   border-radius: 4px;
   padding-bottom: 32px;
   text-align: center;
-  width: 264px;
+  /* width: 264px; */
 }
 
 .team-name {
@@ -281,7 +281,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  width: 264px;
+  /* width: 264px; */
   letter-spacing: 0.02em; /* раніше було 2%, змінив на em для коректності */
   color: #f4f4fd; /* колір тексту у футері */
 }
