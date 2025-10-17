@@ -47,7 +47,26 @@ a {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #2E2F42;
+  text-transform: uppercase;
+  line-height: 1.17;
+}
+.logo-span {
+  color: #4D5AE5;
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+  text-transform: uppercase;
+  line-height: 1.17;
+}
+
+.logo-footer-span {
+  color: #F4F4FD;
 }
 
 .nav-list {
@@ -59,10 +78,16 @@ a {
   font-weight: 500;
   color: #2e2f42;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
-
-.nav-link:hover,
-.nav-link:focus {
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
+  color: #404bbf;
+}
+.nav-list li:nth-child(2) .nav-link:hover,
+.nav-list li:nth-child(2) .nav-link:focus,
+.nav-list li:nth-child(3) .nav-link:hover,
+.nav-list li:nth-child(3) .nav-link:focus {
   color: #404bbf;
 }
 
@@ -125,12 +150,18 @@ a {
 .section-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 72px;
   color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
+
+.features .section-title {
+  display: none;
+}
 /* === Features === */
 .features {
   padding: 120px 0;
@@ -196,6 +227,12 @@ a {
   color: #434455;
 }
 
+.team .section-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
 /* === Portfolio === */
 .portfolio {
   padding: 120px 0;
@@ -232,7 +269,7 @@ a {
 
 /* === Footer === */
 .footer {
-  background-color:#2E2F42;
+  background-color: #2E2F42;
   color: #f4f4fd;
   padding-left: 156px;
   padding-top: 100px;
@@ -241,8 +278,11 @@ a {
 }
 
 .footer-text {
- font-weight: 400;
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 2%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 264px;
+  letter-spacing: 0.02em; /* раніше було 2%, змінив на em для коректності */
+  color: #f4f4fd; /* колір тексту у футері */
 }
+
