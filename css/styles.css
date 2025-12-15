@@ -241,6 +241,7 @@ features .section-title {
     flex-shrink: 0; 
     border: 1px solid #FFFFFF;
     overflow: hidden; 
+}
 
 .team-name {
   font-size: 20px;
@@ -343,6 +344,7 @@ features .section-title {
     letter-spacing: 0.02em;
     color: #f4f4fd
 }
-.logo-footer-span{
+
+.logo-footer-span {
    color: #f4f4fd;
 }
